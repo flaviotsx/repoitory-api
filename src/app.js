@@ -47,7 +47,7 @@ app.post("/repositories", (request, response) => {
     id: uuid(),
     title,
     url,
-    techs: [],
+    techs,
     likes: 0
   }
 
